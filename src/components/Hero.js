@@ -1,5 +1,5 @@
-import './styles.css';
-import restaurantDish from './restaurantfood.jpg';
+import '../styles.css';
+import restaurantDish from '../assets/restaurantfood.jpg';
 
 function Card() {
   return (

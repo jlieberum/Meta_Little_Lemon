@@ -1,7 +1,7 @@
-import './App.css';
-import greeksalad from './greeksalad.jpg';
-import lemon from './lemondessert.jpg';
-import bruchetta from './bruchetta.svg';
+import '../styles.css';
+import greeksalad from '../assets/greeksalad.jpg';
+import lemon from '../assets/lemondessert.jpg';
+import bruchetta from '../assets/bruchetta.svg';
 
 
 

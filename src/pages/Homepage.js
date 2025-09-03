@@ -1,10 +1,10 @@
-import './styles.css';
-import Specials from './Specials';
-import Testimonials from './Testimonials';
-import About from './About';
-import Hero from './Hero';
+import '../styles.css';
+import Specials from '../components/Specials';
+import Testimonials from '../components/Testimonials';
+import About from '../components/About';
+import Hero from '../components/Hero';
 
-function Main() {
+function Homepage() {
   return (
     <div className="main">
       <main>
@@ -30,4 +30,4 @@ function Main() {
   );
 }
 
-export default Main;
+export default Homepage;

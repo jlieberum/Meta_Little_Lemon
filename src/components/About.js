@@ -1,5 +1,5 @@
-import Owners from './Mario_Adrian1.jpg';
-import './App.css';
+import Owners from '../assets/Mario_Adrian1.jpg';
+import '../styles.css';
 
 function About() {
   return (
