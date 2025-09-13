@@ -2,8 +2,6 @@
 
 Welcome to the Little Lemon Restaurant website repository. This project was created as a part of the Meta Frontend Developer course. It is built using React and offers a stylish interface for users who want to explore the restaurant's menu and make reservations.
 
-![Website Preview](./src/assets/preview.png)
-
 ## Features
 
 - **Smooth Navigation:** Easily explore different pages of the website.
@@ -20,12 +18,3 @@ To get a local copy of the project up and running, follow these steps.
 
 - [Node.js](https://nodejs.org/) (v14 or later)
 - [npm](https://www.npmjs.com/) (comes with Node.js)
-
-### Installation
-
-1. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/alominum/front-end-little-lemon.git
-   cd front-end-little-lemon
-   ```
