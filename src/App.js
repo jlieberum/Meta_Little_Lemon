@@ -1,35 +1,30 @@
-import './styles.css';
-import Header from './components/Header';
-import Nav from './components/Nav';
-import Homepage from './pages/Homepage';
-import Bookings from './pages/Bookings';
-import Aboutpage from './pages/Aboutpage';
-import LoginPage from './pages/Login';
+import './App.css';
+import Home from './pages/Home';
+import { Route, Routes } from 'react-router-dom';
+import pages from './utils/pages';
+import Layout from './layouts/Layout';
 import Menu from './pages/Menu';
-import Order from './pages/Order';
-import Footer from './components/footer';
-import {Routes} from 'react-router-dom';
-import { Route } from 'react-router-dom';
+import Orders from './pages/Orders';
+import About from './pages/About';
+import Login from './pages/Login';
+import Reservations from './pages/Reservations';
 
-function App() {
+const App = () => {
   return (
-    <>
-      <div className="layoutContainer">
-        <Header />
-        <Nav />
+    <div data-testid="app-component">
+      <Layout>
         <Routes>
-          <Route path='/' element={<Homepage />} />
-          <Route path='/aboutpage' element={<Aboutpage />} />
-          <Route path='/menu' element={<Menu />} />
-          <Route path='/bookings' element={<Bookings />} />
-          <Route path='/order' element={<Order />} />
-          <Route path='/login' element={<LoginPage />} />
+          <Route path={pages.get('home').path} element={<Home />} />
+          <Route path={pages.get('about').path} element={<About />} />
+          <Route path={pages.get('menu').path} element={<Menu />} />
+          <Route path={pages.get('reservations').path} element={<Reservations />} />
+          <Route path={pages.get('orders').path} element={<Orders />} />
+          <Route path={pages.get('login').path} element={<Login />} />
+          <Route path="*" element={<Home />} />
         </Routes>
-        <Footer />
-      </div>
-
-    </>
+      </Layout>
+    </div>
   );
-}
+};
 
 export default App;

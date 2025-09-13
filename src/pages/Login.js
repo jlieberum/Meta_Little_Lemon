@@ -1,9 +1,7 @@
-import React from 'react'
+import React from 'react';
+import UnderConstruction from './Sections/UnderConstruction';
 
-const LoginPage = () => {
-  return (
-    <div>login</div>
-  )
-}
-
-export default LoginPage
+const Login = () => {
+  return <UnderConstruction />;
+};
+export default Login;

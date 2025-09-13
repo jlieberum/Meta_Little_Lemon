@@ -1,9 +1,7 @@
-import React from 'react'
+import React from 'react';
+import UnderConstruction from './Sections/UnderConstruction';
 
 const Menu = () => {
-  return (
-    <div>Menu</div>
-  )
-}
-
-export default Menu
+  return <UnderConstruction />;
+};
+export default Menu;
