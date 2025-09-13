@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './CSS/Topbar.css';
-import Logo from '../assets/Logo.svg';
+import Logo from '../assets/logo.svg';
 import MenuIcon from '../assets/hamburger.svg';
 import { useNavigate } from 'react-router-dom';
 
